@@ -3,21 +3,11 @@
     "baseUrl": ".",
     // for informing typescript about our alias as we did in vite config
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@server/*": [
-        "../server/*"
-      ],
-      "@hooks/*": [
-        "./hooks/*"
-      ],
-      "@components/*": [
-        "./components/*"
-      ],
-      "@lib/*": [
-        "./lib/*"
-      ]
+      "@/*": ["./src/*"],
+      "@server/*": ["../server/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@components/*": ["./components/*"],
+      "@lib/*": ["./lib/*"]
     },
     "target": "ES2020",
     "useDefineForClassFields": true,
